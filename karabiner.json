@@ -214,7 +214,7 @@
                         ]
                     },
                     {
-                        "description": "[CharaChorder] F8 -> \\ (Option+ss)",
+                        "description": "[CharaChorder] F8 -> \\ (Option+Shift+7)",
                         "manipulators": [
                             {
                                 "type": "basic",
@@ -228,9 +228,10 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "hyphen",
+                                        "key_code": "7",
                                         "modifiers": [
-                                            "left_option"
+                                            "left_option",
+                                            "left_shift"
                                         ]
                                     }
                                 ],
@@ -389,7 +390,7 @@
                         ]
                     },
                     {
-                        "description": "[CharaChorder] F11 -> ` (Option+^)",
+                        "description": "[CharaChorder] F11 -> ` (Shift+Acute, dann Space)",
                         "manipulators": [
                             {
                                 "type": "basic",
@@ -403,10 +404,13 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "grave_accent_and_tilde",
+                                        "key_code": "equal_sign",
                                         "modifiers": [
-                                            "left_option"
+                                            "left_shift"
                                         ]
+                                    },
+                                    {
+                                        "key_code": "spacebar"
                                     }
                                 ],
                                 "conditions": [
